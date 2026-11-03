@@ -241,50 +241,42 @@ The application expects the following files inside `ml/saved_models/expanded/`:
 These files must be made available locally before running model inference.
 
 
-## Project Structure
-
-```text
 multi-modal_sentiment_analysis_system/
-â”‚
-â”œâ”€â”€ backend/
-â”‚   â”œâ”€â”€ app/
-â”‚   â”‚   â”œâ”€â”€ database/
-â”‚   â”‚   â”œâ”€â”€ routes/
-â”‚   â”‚   â”œâ”€â”€ schemas/
-â”‚   â”‚   â”œâ”€â”€ services/
-â”‚   â”‚   â””â”€â”€ utils/
-â”‚   â””â”€â”€ requirements.txt
-â”‚
-â”œâ”€â”€ frontend/
-â”‚   â”œâ”€â”€ src/
-â”‚   â”‚   â”œâ”€â”€ components/
-â”‚   â”‚   â”œâ”€â”€ pages/
-â”‚   â”‚   â””â”€â”€ services/
-â”‚   â””â”€â”€ package.json
-â”‚
-â”œâ”€â”€ ml/
-â”‚   â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ evaluation/
-â”‚   â”œâ”€â”€ notebooks/
-â”‚   â”œâ”€â”€ saved_models/
-â”‚   â””â”€â”€ src/
-â”‚       â””â”€â”€ models/
-â”‚
-â”œâ”€â”€ docs/
-â”‚   â”œâ”€â”€ screenshots/
-â”‚   â”œâ”€â”€ evaluation/
-â”‚   â”œâ”€â”€ API_DOCUMENTATION.md
-â”‚   â”œâ”€â”€ DATASET.md
-â”‚   â”œâ”€â”€ LIMITATIONS.md
-â”‚   â”œâ”€â”€ MODEL_DOCUMENTATION.md
-â”‚   â”œâ”€â”€ PROJECT_OVERVIEW.md
-â”‚   â””â”€â”€ SYSTEM_ARCHITECTURE.md
-â”‚
-â”œâ”€â”€ .env.example
-â”œâ”€â”€ .gitignore
-â”œâ”€â”€ README.md
-â””â”€â”€ requirements.txt
-```
+│
+├── backend/
+│   ├── app/
+│   │   ├── database/
+│   │   ├── routes/
+│   │   ├── schemas/
+│   │   ├── services/
+│   │   └── utils/
+│   └── requirements.txt
+│
+├── frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   └── services/
+│   └── package.json
+│
+├── ml/
+│   ├── evaluation/
+│   └── src/
+│       └── models/
+│
+├── docs/
+│   ├── screenshots/
+│   ├── API_DOCUMENTATION.md
+│   ├── DATASET.md
+│   ├── LIMITATIONS.md
+│   ├── MODEL_DOCUMENTATION.md
+│   ├── PROJECT_OVERVIEW.md
+│   └── SYSTEM_ARCHITECTURE.md
+│
+├── .env.example
+├── .gitignore
+├── README.md
+└── requirements.txt
 
 ## Installation and Setup
 
