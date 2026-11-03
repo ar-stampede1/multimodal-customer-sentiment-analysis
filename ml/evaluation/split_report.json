@@ -1,0 +1,47 @@
+{
+    "total_records": 984,
+    "split_sizes": {
+        "train": 786,
+        "validation": 99,
+        "test": 99
+    },
+    "split_percentages": {
+        "train": 79.88,
+        "validation": 10.06,
+        "test": 10.06
+    },
+    "class_distributions": {
+        "train": {
+            "0": 40,
+            "1": 32,
+            "2": 39,
+            "3": 109,
+            "4": 566
+        },
+        "validation": {
+            "0": 5,
+            "1": 4,
+            "2": 5,
+            "3": 14,
+            "4": 71
+        },
+        "test": {
+            "0": 5,
+            "1": 4,
+            "2": 5,
+            "3": 14,
+            "4": 71
+        }
+    },
+    "product_overlap": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    },
+    "image_overlap": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    },
+    "random_state": 42
+}

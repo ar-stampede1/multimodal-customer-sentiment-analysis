@@ -1,0 +1,45 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets and generated data
+ml/data/raw/*
+ml/data/processed/*
+ml/data/images/*
+
+# Model checkpoints and generated artifacts
+ml/saved_models/*
+*.pth
+*.pt
+*.pkl
+*.onnx
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Python and frontend caches
+.coverage
+htmlcov/
+*.log
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

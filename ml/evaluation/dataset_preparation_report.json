@@ -1,0 +1,153 @@
+{
+    "original_records": 1000,
+    "clean_records": 984,
+    "missing_images": 1,
+    "invalid_images": 0,
+    "duplicate_images_removed": 15,
+    "unique_image_contents": 984,
+    "unique_products": 969,
+    "rating_distribution": {
+        "3": 49,
+        "5": 708,
+        "2": 40,
+        "4": 137,
+        "1": 50
+    },
+    "duplicate_details": [
+        {
+            "image_hash": "a3be87eff60e680fa7470c719a3de801e8c703f73aed51f394d21a2a74607a5c",
+            "kept_review_id": "6f61a87b26d590fa3488f3fefc392eb2458877c5d312c9bba53473644be732fe",
+            "excluded_review_id": "63a7fd3743a2089ad81f31625d275bc3f3fdaa0421b7eaf596dbfa3e0554a0f1",
+            "kept_product": "B0BTTB89J3",
+            "excluded_product": "B09T3921MQ",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "7849ddde869688d98d3a83c2fb861e42043b3baadd14481003d03d20b08950a4",
+            "kept_review_id": "b73c869d9d96edbb369c855f1c6597e1fdb792b8663554d07b4f63d1587016f3",
+            "excluded_review_id": "6697091c03598226bf0a7772e450e6fcefc1e157ecaec90983f5b7600cac9603",
+            "kept_product": "B07P5R2D42",
+            "excluded_product": "B08Q4PLP1Q",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "21561a0fbf8ee66d4b2a52eb62bea08eb93e28949e693ba9155ddab74a2c7fd4",
+            "kept_review_id": "4079ac7e937b5965ca4dc870adf153c69d3015ba95cf2aa01822ecc8b764912a",
+            "excluded_review_id": "9a820b9cc26a391593b1eb150d326a3d147894e2af113966f6a1251314edf016",
+            "kept_product": "B07JKWH97B",
+            "excluded_product": "B084V9CJB1",
+            "kept_rating": 4,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "ce766ce17b79cebcbdd210302197ab3e1ff982274b3c65cc934e052b3a1d57ab",
+            "kept_review_id": "5ca5b857199c05bca8334afd89d27d9a42324c39fb683dbcdb3760c1887eaba5",
+            "excluded_review_id": "60fcf0e3eccf649886bd904bc9f42b6664c8e7fbbfa3eecfd0d7bd4231c79f57",
+            "kept_product": "B07VDPY2RL",
+            "excluded_product": "B07MLY3JKV",
+            "kept_rating": 5,
+            "excluded_rating": 4
+        },
+        {
+            "image_hash": "eb96f58fc9fa7b94b2e3482e65377b4afc1c55a138d48793d8410b62f721e862",
+            "kept_review_id": "315250deb2a0dc18754c8746f6bc6e60b9bde0c49f586d79ab8dad7bbbae48d6",
+            "excluded_review_id": "33b9a4178cbfd02f6867e77cd96218007ff15dd1dfaa7e5b2305aa6b628c44dc",
+            "kept_product": "B09H83QHPC",
+            "excluded_product": "B07JZCP1NJ",
+            "kept_rating": 4,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "d66120a7a806748ad5d4b3d7644670338b77285210f552ecc1de6ed1558864bc",
+            "kept_review_id": "1f1f8d9a39a601d5286563ada0eb9a45098e58f3e6ee8eaf0dfcf8d09aad6bcf",
+            "excluded_review_id": "15537a3e2fdbdcd42f349c3bb914180a70f5a3d5283aea7e1dfe936b9297a1ea",
+            "kept_product": "B08934PYGP",
+            "excluded_product": "B086GNR77J",
+            "kept_rating": 4,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "419a8851adbd48c1177f3be88422301852277012ed921845f19c820ac2cefe61",
+            "kept_review_id": "173c055f3ad3a6909e7a2ac68a0084d20f60fe8248d854650eb016f9f282367e",
+            "excluded_review_id": "ad2cba78e2e68cab6c0910ec0cf775c9b01a8b034abb584326395cb454f8e952",
+            "kept_product": "B08XVF418R",
+            "excluded_product": "B08DPP3T9Z",
+            "kept_rating": 1,
+            "excluded_rating": 2
+        },
+        {
+            "image_hash": "419a8851adbd48c1177f3be88422301852277012ed921845f19c820ac2cefe61",
+            "kept_review_id": "173c055f3ad3a6909e7a2ac68a0084d20f60fe8248d854650eb016f9f282367e",
+            "excluded_review_id": "6e326626db2a9cb77c4cefe02f13ae25c254177310fd4bbede960e65b3a0af81",
+            "kept_product": "B08XVF418R",
+            "excluded_product": "B08YGKCHNF",
+            "kept_rating": 1,
+            "excluded_rating": 2
+        },
+        {
+            "image_hash": "5d74a7ac805de6d5cdfcb85b9416d0b5b56e01ea99d3e22be6e6f5c42251e4c9",
+            "kept_review_id": "e2c40d57ed49b5836f336eff204d499b7a071798f22d34ce1bd040ea310ad420",
+            "excluded_review_id": "64dc3587d2debedd014536fd0f2a3c1eff77a2085de62d26cce848b2326cdf5e",
+            "kept_product": "B07J2FGZSM",
+            "excluded_product": "B07HL5J1NF",
+            "kept_rating": 4,
+            "excluded_rating": 4
+        },
+        {
+            "image_hash": "3f11bb231a3c395e66631387937dd768069d424824abb691c4c02e5fc2959891",
+            "kept_review_id": "fc006b8616434352d638d97d15a8f68e5ccc3e5284bba9b5d207104ea555e3a8",
+            "excluded_review_id": "5fed16d31442b65229e1ff5b74a080fa61b683bf3cebc8237047639f67dc6021",
+            "kept_product": "B08GG4S2QW",
+            "excluded_product": "B08F9QV1BQ",
+            "kept_rating": 3,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "283d6ccefb6bfc8c0a48173c4b3a0de533146a16e5004b559da2516c4f861cd5",
+            "kept_review_id": "94d901a8737665fad457f25263028a68335f9477abb1893d30fab0583557556c",
+            "excluded_review_id": "dafdf066c61b4076d42fa22b6c1706a8ccc694caba9a7758fc0f47e5502c0800",
+            "kept_product": "B08MF788FD",
+            "excluded_product": "B09DVTFTXY",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "fb0c2c0994d3c7d0dbef6431624a87dcffb68f1cd02a8e0285f0687085f7324d",
+            "kept_review_id": "373b6e3e12851699dda7bdfde458aaf5c7915466867a5d1bae3e5ee3b59449fa",
+            "excluded_review_id": "5e0cf6c55c43d0c1b515c15a2e98233a1eb7763f919df73d754a7c9ac4a73310",
+            "kept_product": "B014VH00OS",
+            "excluded_product": "B08KWHSSWQ",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "3f1da91f1e5ab97a334877628900f9ecfe0942443a0ea42706dae0fded78df09",
+            "kept_review_id": "8dc8d58f283b1274eafbdb4a2286c184bcb1377eeaa24d7395a9f5ad634d9666",
+            "excluded_review_id": "cbdd2840c14d7fb81a41608e7b620ec0c7cac0aec0cbf459eb07dfb855e5318b",
+            "kept_product": "B09JCDSGWH",
+            "excluded_product": "B09Q8Q2R7R",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "a90f7acde66b8b254142aaa7146bf751ab5e42833aa883d601787d6129e5dbb2",
+            "kept_review_id": "104c1e2d4ab73cec277b53c97e34d06e389e9bcf9917b2b84db0fae8b14218f2",
+            "excluded_review_id": "0a4609d0d83815afff3b269f781d4804d3fb6e05e83b9e95d58cd03a805867cd",
+            "kept_product": "B08TR3Y1VR",
+            "excluded_product": "B09369V7VW",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        },
+        {
+            "image_hash": "ae7cdbd3b9e47a7e028089287106f90d36a61c19c843f863f3e2659f085e175b",
+            "kept_review_id": "b5e6cff622d56cd97f999d3d084267a8be29d6bd9a61f284c04976bcaac6579b",
+            "excluded_review_id": "c01945ea9a88548d737b7b412d27919c490bf85168de5d8cd7d395366fc17f4b",
+            "kept_product": "B08L4XWC45",
+            "excluded_product": "B08MWDVZBW",
+            "kept_rating": 5,
+            "excluded_rating": 5
+        }
+    ]
+}

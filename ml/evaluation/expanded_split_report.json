@@ -1,0 +1,48 @@
+{
+    "total_records": 9105,
+    "split_sizes": {
+        "train": 7283,
+        "validation": 911,
+        "test": 911
+    },
+    "split_percentages": {
+        "train": 79.9890170236134,
+        "validation": 10.0054914881933,
+        "test": 10.0054914881933
+    },
+    "class_distribution": {
+        "train": {
+            "0": 535,
+            "1": 275,
+            "2": 423,
+            "3": 1119,
+            "4": 4931
+        },
+        "validation": {
+            "0": 67,
+            "1": 35,
+            "2": 53,
+            "3": 139,
+            "4": 617
+        },
+        "test": {
+            "0": 67,
+            "1": 35,
+            "2": 53,
+            "3": 140,
+            "4": 616
+        }
+    },
+    "product_overlap": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    },
+    "image_hash_overlap": {
+        "train_validation": 0,
+        "train_test": 0,
+        "validation_test": 0
+    },
+    "unique_products": 8299,
+    "random_state": 42
+}

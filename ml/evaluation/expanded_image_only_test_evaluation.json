@@ -1,0 +1,99 @@
+{
+    "checkpoint_epoch": 5,
+    "best_validation_macro_f1": 0.2555376400823,
+    "test_accuracy": 0.5609220636663008,
+    "test_macro_f1": 0.22227962866109321,
+    "test_weighted_f1": 0.5341102855415921,
+    "test_mae": 0.9407244785949506,
+    "test_quadratic_weighted_kappa": 0.18335338156203007,
+    "classification_report": {
+        "Very Dissatisfied": {
+            "precision": 0.17582417582417584,
+            "recall": 0.23880597014925373,
+            "f1-score": 0.20253164556962025,
+            "support": 67.0
+        },
+        "Dissatisfied": {
+            "precision": 0.03571428571428571,
+            "recall": 0.02857142857142857,
+            "f1-score": 0.031746031746031744,
+            "support": 35.0
+        },
+        "Neutral": {
+            "precision": 0.056338028169014086,
+            "recall": 0.07547169811320754,
+            "f1-score": 0.06451612903225806,
+            "support": 53.0
+        },
+        "Satisfied": {
+            "precision": 0.15789473684210525,
+            "recall": 0.04285714285714286,
+            "f1-score": 0.06741573033707865,
+            "support": 140.0
+        },
+        "Very Satisfied": {
+            "precision": 0.7086383601756955,
+            "recall": 0.7857142857142857,
+            "f1-score": 0.7451886066204773,
+            "support": 616.0
+        },
+        "accuracy": 0.5609220636663008,
+        "macro avg": {
+            "precision": 0.22688191734505528,
+            "recall": 0.23428410508106365,
+            "f1-score": 0.22227962866109321,
+            "support": 911.0
+        },
+        "weighted avg": {
+            "precision": 0.52101276432415,
+            "recall": 0.5609220636663008,
+            "f1-score": 0.5341102855415921,
+            "support": 911.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            16,
+            5,
+            7,
+            4,
+            35
+        ],
+        [
+            8,
+            1,
+            6,
+            0,
+            20
+        ],
+        [
+            4,
+            2,
+            4,
+            1,
+            42
+        ],
+        [
+            15,
+            3,
+            14,
+            6,
+            102
+        ],
+        [
+            48,
+            17,
+            40,
+            27,
+            484
+        ]
+    ],
+    "class_names": [
+        "Very Dissatisfied",
+        "Dissatisfied",
+        "Neutral",
+        "Satisfied",
+        "Very Satisfied"
+    ],
+    "test_samples": 911
+}

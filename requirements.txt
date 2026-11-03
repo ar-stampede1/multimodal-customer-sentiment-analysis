@@ -1,0 +1,21 @@
+# Core ML and deep learning
+torch
+torchvision
+transformers
+accelerate
+
+# Dataset handling
+datasets
+evaluate
+
+# Data processing
+numpy
+pandas
+Pillow
+scikit-learn
+
+# Evaluation and visualization
+matplotlib
+seaborn
+tqdm
+requests

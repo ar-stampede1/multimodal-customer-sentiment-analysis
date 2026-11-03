@@ -1,0 +1,92 @@
+{
+    "model": "Image-only ResNet18",
+    "checkpoint_epoch": 1,
+    "accuracy": 0.7171717171717171,
+    "macro_f1": 0.16705882352941176,
+    "weighted_f1": 0.5990493166963755,
+    "mae": 0.5656565656565656,
+    "quadratic_weighted_kappa": 0.0,
+    "classification_report": {
+        "Very Dissatisfied": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 5.0
+        },
+        "Dissatisfied": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 4.0
+        },
+        "Neutral": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 5.0
+        },
+        "Satisfied": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 14.0
+        },
+        "Very Satisfied": {
+            "precision": 0.7171717171717171,
+            "recall": 1.0,
+            "f1-score": 0.8352941176470589,
+            "support": 71.0
+        },
+        "accuracy": 0.7171717171717171,
+        "macro avg": {
+            "precision": 0.14343434343434341,
+            "recall": 0.2,
+            "f1-score": 0.16705882352941176,
+            "support": 99.0
+        },
+        "weighted avg": {
+            "precision": 0.5143352719110295,
+            "recall": 0.7171717171717171,
+            "f1-score": 0.5990493166963755,
+            "support": 99.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            0,
+            0,
+            0,
+            0,
+            5
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            4
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            5
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            14
+        ],
+        [
+            0,
+            0,
+            0,
+            0,
+            71
+        ]
+    ],
+    "total_test_samples": 99
+}

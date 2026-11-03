@@ -1,0 +1,676 @@
+{
+    "checkpoint_epoch": 4,
+    "total_test_records": 99,
+    "correct_predictions": 73,
+    "incorrect_predictions": 26,
+    "confusion_matrix": [
+        [
+            1,
+            1,
+            0,
+            2,
+            1
+        ],
+        [
+            0,
+            0,
+            1,
+            2,
+            1
+        ],
+        [
+            0,
+            0,
+            1,
+            2,
+            2
+        ],
+        [
+            0,
+            0,
+            0,
+            5,
+            9
+        ],
+        [
+            0,
+            0,
+            0,
+            5,
+            66
+        ]
+    ],
+    "errors_by_actual_class": {
+        "Very Dissatisfied": 4,
+        "Dissatisfied": 4,
+        "Neutral": 4,
+        "Satisfied": 9,
+        "Very Satisfied": 5
+    },
+    "common_misclassifications": [
+        {
+            "actual": "Satisfied",
+            "predicted": "Very Satisfied",
+            "count": 9
+        },
+        {
+            "actual": "Very Satisfied",
+            "predicted": "Satisfied",
+            "count": 5
+        },
+        {
+            "actual": "Neutral",
+            "predicted": "Satisfied",
+            "count": 2
+        },
+        {
+            "actual": "Neutral",
+            "predicted": "Very Satisfied",
+            "count": 2
+        },
+        {
+            "actual": "Dissatisfied",
+            "predicted": "Satisfied",
+            "count": 2
+        },
+        {
+            "actual": "Very Dissatisfied",
+            "predicted": "Satisfied",
+            "count": 2
+        },
+        {
+            "actual": "Very Dissatisfied",
+            "predicted": "Very Satisfied",
+            "count": 1
+        },
+        {
+            "actual": "Dissatisfied",
+            "predicted": "Very Satisfied",
+            "count": 1
+        },
+        {
+            "actual": "Dissatisfied",
+            "predicted": "Neutral",
+            "count": 1
+        },
+        {
+            "actual": "Very Dissatisfied",
+            "predicted": "Dissatisfied",
+            "count": 1
+        }
+    ],
+    "individual_errors": [
+        {
+            "review_id": "34c6fe4aa5e437610a4ebefb6e759474d21f0146024193111a7c936f2cb4164c",
+            "product_id": "B00YEX1Y1S",
+            "parent_asin": "B00YEX1Y1S",
+            "review_title": "Won't last",
+            "review_text": "Great relatively inexpensive television. I did not have any kind of line at the bottom (which one of the other reviewers had experienced). This is a very light set and I was easily able to maneuver the box inside and set up all by myself. The picture is crystal clear and the contrast is simply remarkable at a price like this. I set this up in my bedroom and was super impressed with the quality of this Polaroid television. I am sure the reason for the lightweight feature of this television may largely be due to plastic pieces, but I don't notice it when set up. I also find the sound quality of this set impressive, too (no need for me to attach my sound bar). All and all, very impressed. If the price on this goes down even further over the holidays, I would jump on it. I will be keeping my out for the sales as I would love to get one for my son.<br /><br />10-04-2015 Update: After initially setting this television up in my bedroom, I moved it to my guest bedroom and hadn't used it again until last night. Upon my brother's turning on the television, there was a 2 inch yellow band/line with a blue dot across the top (see picture below). So, now I have a television that can't be used. I need to look into warranty/return policies and have written to Amazon about it.",
+            "actual_rating": 1,
+            "actual_class": 0,
+            "actual_label": "Very Dissatisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.57958984375,
+            "prediction_probabilities": [
+                0.003772735595703125,
+                0.0049591064453125,
+                0.005069732666015625,
+                0.40625,
+                0.57958984375
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\34c6fe4aa5e437610a4ebefb6e759474d21f0146024193111a7c936f2cb4164c.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71dXyiJ9dkL._SL800_.jpg"
+        },
+        {
+            "review_id": "8f8bf712da4c04329f806ca778a919f37b013b86460a882ddee9ce4a52ee2d81",
+            "product_id": "B0BFHQVWKL",
+            "parent_asin": "B0BV5NRPM5",
+            "review_title": "Works flawlessly! Allows 2 unique displays with 2018 MacBook Pro (Intel)",
+            "review_text": "UPDATE (from 5 stars to 2 stars): JAN 2023: One of the HDMI ports stopped working, so now this thing has become pretty useless to me. If it had continued working, this would have been great. But unfortunately it randomly stopped working one day and it hasn't worked since.<br /><br />This little thing has been wonderful. I have a 2018 MacBook Pro (Intel, not M1/M2) and I was looking for a dock that would allow me to use 2 separate monitors with the laptop lid closed, and this one is perfect.<br /><br />It is pretty small (5\" x 2\" x 0.5\", smaller than a Pro Max iPhone) and has a premium metal (?) feel to it (all I know is that it isn't plastic). All you need to do is plug it into the MBP and it works from there (side note: you need to install a quick driver before using the dock, but it's very simple)<br /><br />I appreciate that it allows for pass through charging (which also ensures that high-energy USB devices receive ample power). Additionally, it is really nice that this has both DisplayPort AND HDMI, which is not common based on what I've seen.<br /><br />My only gripe with this is that there are only 2x USB ports (which I knew when I bought it). If you're looking for an easy to use Thunderbolt dock for your MacBook Pro, get this one.",
+            "actual_rating": 2,
+            "actual_class": 1,
+            "actual_label": "Dissatisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.90966796875,
+            "prediction_probabilities": [
+                0.0011377334594726562,
+                0.0018911361694335938,
+                0.0036907196044921875,
+                0.08380126953125,
+                0.90966796875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\8f8bf712da4c04329f806ca778a919f37b013b86460a882ddee9ce4a52ee2d81.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/81UeGovtfvL._SL800_.jpg"
+        },
+        {
+            "review_id": "26e9bf32ed3fe083d8b08283af060900dabeed0233709e24932829fff4347b15",
+            "product_id": "B08FJBNFWK",
+            "parent_asin": "B08FJBNFWK",
+            "review_title": "Super large but beautiful backpack; well-made; holds my 17” Dell Inspiron",
+            "review_text": "When I first opened the box, I said \"wow, this is a big bag.\" It is definitely tall and much larger than I expected. However, it is beautiful, well made, and feels good on.<br /><br />This fits my 17\" thick Dell Inspiron laptop with ease. I feel it is also very protected in the bag.<br /><br />FEATURES I LIKE:<br />- Padded and adjustable shoulder straps<br />- Full size folder pocket on the back of the bag (where shoulder straps are)<br />- Cinch straps for the top part of the bag (see photo) so that it folds over<br />- Handle above folder pocket on back<br />- Double handle on top of bag<br />- Two side pockets with mesh webbing to hold tiny incidentals like chapstick, cell phone, keys, bus pass,<br />etc.<br />- Small half height zippered folder pocket in front<br />- Large full size folder pocket with Velcro flap closure in front<br />- Another full size folder pocket behind the above pocket with center Velcro closure<br />- Central compartment with soft, padded, interior full sized folder pocket for laptop with tiny Velcro closure<br />- Interior small zippered pocket and two pen / pencil sleeves and two other sleeves on either side<br />- Zippered closure of central compartment<br />- Ingenious zippered expansion of two water bottle pockets on either side of the bag; can be zipped  and then snapped closed when not needed<br />- Nice leather (or leather-like) Zinz label on front<br /><br />In summary, this is an exquisite bag with interesting compartments. There is no room for a regular-sized purse inside this bag due to the design. However, this can be used as a purse and laptop carrier all in one. I have no idea how much this will cost since no price is listed at this time. The zippers flow easily except for the very top size zipper that opens to the water bottle pocket. That one sticks on me a bit.  I doubt if this will be listed for less than $25.",
+            "actual_rating": 5,
+            "actual_class": 4,
+            "actual_label": "Very Satisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.63232421875,
+            "prediction_probabilities": [
+                0.0035877227783203125,
+                0.00550079345703125,
+                0.00533294677734375,
+                0.63232421875,
+                0.353271484375
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\26e9bf32ed3fe083d8b08283af060900dabeed0233709e24932829fff4347b15.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/715ID9E789L._SL800_.jpg"
+        },
+        {
+            "review_id": "520ad8ec04bcbcc2255adfd9db6b8ef2b08aa111e5bc3e2501f7ed36ecca593e",
+            "product_id": "B07J1GYCWC",
+            "parent_asin": "B07J1GYCWC",
+            "review_title": "This stand is extremely low profile but has limited elevation and angle",
+            "review_text": "I ordered a [[ASIN:B07HBQSCM3 Boyata laptop stand]] a while back which I use daily every evening. I absolutely love that stand. I decided to order this stand as a supplement to that for when I want to use several devices while my boyfriend is at my house.<br /><br />LIKES<br />- This stand is very low profile and collapses flat (photo 1).<br />- It holds a variety of tablets and notebooks/laptops. picture 5 is with my Google Nexus 7, pictures 6 and 7 are with my LG notebook, and the last photo is with my iPad 12.9\".<br /><br />DISLIKES<br />- There is not much elevation or angle with this.  See photos 2, 3, 4, & 7.  All but photo 4 are at the highest angle possible.<br />- If the tablet includes a cover, it might slip off the stand. For instance, I have a thick cover on my iPad and it kept slipping off because the lip in front was not high enough.<br /><br />In summary, this is the type of stand that is good for toting around in a backpack or briefcase. However, since I am not interested in carrying this around, I prefer the similarly priced [[ASIN:B07HBQSCM3 Boyata laptop stand]]. I have been using this stand on and off for a week and kept wishing my tablet were higher and more angled toward me when using this.<br /><br />UPDATE December 25, 2018 - I gave this to my boyfriend to try and he does not like it. He said his iPad case tilts higher than this. This is a disappointment to both of us.",
+            "actual_rating": 3,
+            "actual_class": 2,
+            "actual_label": "Neutral",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.87939453125,
+            "prediction_probabilities": [
+                0.00777435302734375,
+                0.0266876220703125,
+                0.042266845703125,
+                0.87939453125,
+                0.04388427734375
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\520ad8ec04bcbcc2255adfd9db6b8ef2b08aa111e5bc3e2501f7ed36ecca593e.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61PuDg8CvQL._SL800_.jpg"
+        },
+        {
+            "review_id": "f630e511e8ce0bd5270478548d23c0d5fdb649419485a373565fbd01beeeb1e4",
+            "product_id": "B084ZYD2SN",
+            "parent_asin": "B084ZYD2SN",
+            "review_title": "Great 1st time gift.. can be used with every child after!!",
+            "review_text": "Ordered as a gift for a baby shower… these arrive in a canvas bag ready to give!! I did opened and examined the wooden discs- and these will be great for the many photo ops along the way-<br />These mark all “monthly birthdates” as well as,<br />holidays and milestones. They are actually imprinted InTo the wooden disc (making these permanent and eliminating scratching off paint..) The discs are double sided which cuts down on storage- and that’s always a bonus..<br /><br />I gave these as a gift to first time parents and it’s perfect.. 1st timers tend to always be better record keepers and have ability to mark each of these memorable occasion- bc, they’ve yet to become outnumbered by mini people!!<br />The sex of the baby is unknown so, I love these  are unisex ... and if, they have more children in the future- they could use these again.. and again!!<br /><br />The only reason I deducted a star was due to the choice of color used in the imprint of the wood itself.. Goldish??? Tbh, at different angles- it can be difficult to read.. And this is one thing you just don’t want or need to fuss with- when trying to pose an infant/toddler who’s less then, cooperative at best in photo shoots..!!!  I’m sure these would be most legible in black ink- AnD not in a font that is swoopy cursive either.. A playful/juvenile/bold font would be much easier to read.. and maybe more inline for a babies just the same?! With both, the gold + cursive- you need to catch the disc at just the right angle to see/read lettering.. Otherwise, it can blend into wood making it hard to decipher.<br />I DO suggest placing these on a brightly colored backdrop/blanket.. that will help color to pop!<br /><br />Overall, this is such a fun/cleaver gift for parents to receive- it could be used for multiple children, no problem. This set could even be shared with friends and family that are also in the baby phase of life!! (us mama’s love to loan our baby gadgets and help one another out..) I am certain, ordered one would definitely get a lot of mileage out of this!",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.99658203125,
+            "prediction_probabilities": [
+                0.0005826950073242188,
+                0.000270843505859375,
+                0.00039315223693847656,
+                0.0019893646240234375,
+                0.99658203125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\f630e511e8ce0bd5270478548d23c0d5fdb649419485a373565fbd01beeeb1e4.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71X2pWARlLL._SL800_.jpg"
+        },
+        {
+            "review_id": "c8f9e9682e6ed7c9bba04be19f1f1e110c09590d445339330e83721909e2a9e2",
+            "product_id": "B07YYWK432",
+            "parent_asin": "B07YYWK432",
+            "review_title": "Multipurpose Tote",
+            "review_text": "This tote comes in a size that makes it useful for many purposes. There's enough room for a large laptop. There are also interior pockets. The exterior material is waterproof and cleans up easily. It's similar to a heavyweight raincoat material. This tote makes a great gift.<br /><br />Thanks so much for taking the time to read this review. I hope the information that I've provided makes your decision a little easier.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.998046875,
+            "prediction_probabilities": [
+                0.00022876262664794922,
+                0.00025272369384765625,
+                0.00025963783264160156,
+                0.0013141632080078125,
+                0.998046875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\c8f9e9682e6ed7c9bba04be19f1f1e110c09590d445339330e83721909e2a9e2.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81wh7WxQ7HL._SL800_.jpg"
+        },
+        {
+            "review_id": "337bc44f95e6f9e1be0c97218bc5b61549947847bfa3b8842cefc33e14257f41",
+            "product_id": "B078DPCY3T",
+            "parent_asin": "B08KG14KCT",
+            "review_title": "Great SSD for the price",
+            "review_text": "Update: I see a lot of people complaining about the drive capacity being “wrong” (465gb instead of 500gb or 960gb instead of 1TB) and to those people I highly recommend going to YouTube and searching “What is Overprovisioning?” and clicking on the link by TechQuickie.<br /><br />Samsung is NOT falsely advertising. The drive DOES in fact come with the advertised space it’s just that in order for it to work properly and perform optimally it requires approximately 10% of the capacity to be overprovisioned free space.<br /><br />This is a really great SATA SSD for the price. It's perfect for storing games that have long load times without paying a fortune for an NVMe SSD of equal capacity. I highly recommend it for people like me who need more space for games, projects, and other things like that who want them to load quickly. You can get an HDD like a WD Black for cheaper but the loading times will be much longer and for those who dont like to wait for long load screens this is a perfect choice.<br /><br />Also don't forget to enable RAPID mode. It uses RAM to speed up the programs & applications that you have been using recently. My CrystalDisk benchmark shows how fast it is with RAPID mode enabled.",
+            "actual_rating": 5,
+            "actual_class": 4,
+            "actual_label": "Very Satisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.74365234375,
+            "prediction_probabilities": [
+                0.01100921630859375,
+                0.0186309814453125,
+                0.039093017578125,
+                0.74365234375,
+                0.187744140625
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\337bc44f95e6f9e1be0c97218bc5b61549947847bfa3b8842cefc33e14257f41.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51vFu1JCtoL._SL800_.jpg"
+        },
+        {
+            "review_id": "4b38dd791e2ace86caa8a1952077fa05f9b440de420be6ef0cfa9859bd1de09a",
+            "product_id": "B00007E7JU",
+            "parent_asin": "B00WUI07XK",
+            "review_title": "Great lens but I didn't get a warranty with it...",
+            "review_text": "I like the lens and I'd buy it again but I don't know why it didn't come with the typical 1 year warranty card that most lenses (such a my 55-250mm do). I am always uncomfortable when I don't get a warranty for something because it usually ends up breaking with my luck. Anyway fingers crossed and knock on wood and all that, if whoever I bought this from sees this could you perhaps mail me my warranty card?",
+            "actual_rating": 3,
+            "actual_class": 2,
+            "actual_label": "Neutral",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.6884765625,
+            "prediction_probabilities": [
+                0.002628326416015625,
+                0.0027904510498046875,
+                0.00428009033203125,
+                0.302001953125,
+                0.6884765625
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\4b38dd791e2ace86caa8a1952077fa05f9b440de420be6ef0cfa9859bd1de09a.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61mbAneduZL._SL800_.jpg"
+        },
+        {
+            "review_id": "b3f6a37bdea546b4676a4bbb7325c9558385b7da8a31ea5557a52f9702750fb9",
+            "product_id": "B07VFKBQ3G",
+            "parent_asin": "B07XBX33N2",
+            "review_title": "Get the model below this one and be happy",
+            "review_text": "This speaker has excellent sound, there is no doubt about that. I deducted two stars for the ridiculous charging cord that is not compatible with any other charger that I have. Why would this company make charging their device so difficult? I cannot use this charging cord with any of my portable battery packs and some of them cost almost as much as the speaker did. And I am deducting another star because I’ve had a lot of connectivity issues when it comes to the Google assistant or Alexa it is not a true smart speaker. Had I known these things I would have opted for the model below this speaker as I see it does have a regular charging cord and I would not expect a speaker at that price point to be that smart.",
+            "actual_rating": 2,
+            "actual_class": 1,
+            "actual_label": "Dissatisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.826171875,
+            "prediction_probabilities": [
+                0.01039886474609375,
+                0.0673828125,
+                0.07098388671875,
+                0.826171875,
+                0.025115966796875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\b3f6a37bdea546b4676a4bbb7325c9558385b7da8a31ea5557a52f9702750fb9.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/C15FPFhdU6S._SL800_.jpg"
+        },
+        {
+            "review_id": "f9411abb98696aee99eedce1e2e3316335d5784493f76cd19acad06ab8b88b68",
+            "product_id": "B0773C4WV6",
+            "parent_asin": "B0773C4WV6",
+            "review_title": "Cannot Straighten out Cord",
+            "review_text": "I can't use this plug in any way, shape, or form. Plug it in and the tightly curled wire will not straighten out. This is so ridiculous. The length I need just isn't there and the thickness and curliness of the wire take up so much room because it will not flatten out. Would it be so difficult to wrap this plug in the way that all other plugs are wrapped for sale? I need to return this cube so I can get one that the wire lays flat.",
+            "actual_rating": 2,
+            "actual_class": 1,
+            "actual_label": "Dissatisfied",
+            "predicted_class": 2,
+            "predicted_label": "Neutral",
+            "confidence": 0.397705078125,
+            "prediction_probabilities": [
+                0.1253662109375,
+                0.250732421875,
+                0.397705078125,
+                0.1729736328125,
+                0.053070068359375
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\f9411abb98696aee99eedce1e2e3316335d5784493f76cd19acad06ab8b88b68.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91SBgPDtmqL._SL800_.jpg"
+        },
+        {
+            "review_id": "1dce1ab87c21f55aa0f60e04a09027d292ff42f9fcc61120a91203d25bfd8b2a",
+            "product_id": "B09GJWYXSP",
+            "parent_asin": "B09GJWYXSP",
+            "review_title": "Very easy and adjust angles great!",
+            "review_text": "At first I loved these clips but they do not work with blink cameras.  The covers, cover the light sensor so you get black videos with no light. I asked seller about it who told me they dont effect the function but this is not true.  My camera battery life is fine as I take the cover off and I have great videos again, put cover back on and no light because the cover blocks it. Ugh.  . Do not buy these for blink cameras. I have put screen shot of cover on and what it looks like with cover off. I will be returning these since they do not work with blink cameras.  The clip part is fine but the protective weather housing is not built correct.",
+            "actual_rating": 5,
+            "actual_class": 4,
+            "actual_label": "Very Satisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.775390625,
+            "prediction_probabilities": [
+                0.006866455078125,
+                0.007167816162109375,
+                0.01312255859375,
+                0.775390625,
+                0.197509765625
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\1dce1ab87c21f55aa0f60e04a09027d292ff42f9fcc61120a91203d25bfd8b2a.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/61MwrH141oL._SL800_.jpg"
+        },
+        {
+            "review_id": "5e1334be9265752e4d0b024ac6bcf30869e9eabacfde43af00a57bd8aa03ec30",
+            "product_id": "B074Z6NG75",
+            "parent_asin": "B07BWFNBZK",
+            "review_title": "Perfect for my Asus TUF laptop 15”",
+            "review_text": "Beautiful color and nice fabric. Aesthetically pleasing and the pockets can hold more than I thought they would. Pleasantly surprised on that. It’s technically not the right size for my laptop, but the one up from this had my laptop shifting around and I didn’t like it. So I tried this size and it’s a nice snug fit. Very glad I tried this one out. Seems to be durable and protective in addition to being pretty and holding more than I expected. Definitely recommend.",
+            "actual_rating": 5,
+            "actual_class": 4,
+            "actual_label": "Very Satisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.88427734375,
+            "prediction_probabilities": [
+                0.00656890869140625,
+                0.02069091796875,
+                0.031463623046875,
+                0.88427734375,
+                0.056915283203125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\5e1334be9265752e4d0b024ac6bcf30869e9eabacfde43af00a57bd8aa03ec30.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/C11nq+Kx7+S._SL800_.jpg"
+        },
+        {
+            "review_id": "8d05aad9343964827735042afd3c9f062fee547d283288fd46c6dcbe65783c6e",
+            "product_id": "B0129D1QYE",
+            "parent_asin": "B0129D1QYE",
+            "review_title": "Just OK for the Keyboard",
+            "review_text": "I try real hard to be honest in every review. Some vendors take offense to honesty and products that are not a 5-star rating. But, we on Amazon, truly depend on each other and honesty for products that we want to purchase. We are all different but for me this is my honest assessment. The tablet case does secure the LG G f8 (8inch) tablet well. But, I have had a similar case in the past for my Kindle Fire and never had any issues. It is very strong and durable. My issue is with the keyboard and how it secures with the tablet case. The keyboard is a sturdy construction and not a silicone keypad. BUT, there is not tiny mouse pad within its design. That means to make my LG G tablet truly functional for writing documents, emails and the such I need to have an additional item - a wireless mouse; otherwise why need a keyboard. So, I had to order a mini mouse as well which doesn't exactly fit anyplace but in my pocket or carry bag. The other issue is the way the tablet, case and keyboard are designed to be closed. The case elastic strap is actually the same as the one on my kindle Fire and slips around the secured tablet and does it well. However, add a keyboard, which was NOT a design to this tablet holder and you have to decide if you want the keyboard face against your tablet, tight, as that elastic strap secures them both. that means the keyboard is actually not secure by the case but ONLY by the outer elastic strap. Or, you flip the keyboard so that the back of that keypad rests against your tablet screen and it is still only secured by the outer elastic strap. Both methods require that you ensure you keep this tablet case upright so that the keyboard does not slip out of this elastic band as time and use deteriorate the elastic and its tension. So, in essence, this is a case that has been around and works well for Kindle Fire and probably this tablet. but, this case was NOT designed to include a keyboard. this was a vendor added item with an existing product. When you pay $200 for a tablet you want to ensure you do not scratch the screen or damage the tablet. And if you like the use of a keyboard, note that a mouse will also be required and that it may be best to look for alternative cases to accommodate your needs in one neat package<br />Update: July 2016: well after very limited use the key board is no loner functioning. It's not the charge it is a dead key board. I am a senior and disabled Vietnam veteran appreciate each dollar of my disability pay and do not have that luxury of repeat purchases. So, even though I am only one customer I would consider other products that have a higher reliability and that are not tied to a protective case purchase.",
+            "actual_rating": 1,
+            "actual_class": 0,
+            "actual_label": "Very Dissatisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.82421875,
+            "prediction_probabilities": [
+                0.004650115966796875,
+                0.01125335693359375,
+                0.0173797607421875,
+                0.82421875,
+                0.142578125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\8d05aad9343964827735042afd3c9f062fee547d283288fd46c6dcbe65783c6e.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/718sfooThuL._SL800_.jpg"
+        },
+        {
+            "review_id": "39c666e0dda47a416b158429e3c6cc5e5ed457964e86f85e5851919ba1b24378",
+            "product_id": "B07G9NNK8Z",
+            "parent_asin": "B07G9NNK8Z",
+            "review_title": "Lightweight and Gets the Job Done",
+            "review_text": "With the preponderance of electronics most everyone needs to have something to transport them in. Laptops are owned by almost every adult and they continue to shrink in size and weight, making it more convenient to move them from one place to the next. I have two laptops and need to carry them around, whether to work and back, during travel, etc. And my new constant companion for this purpose is the Fit & Fresh Laptop Backpack.<br /><br />Light in construction and utilitarian in design, this laptop bag easily fits most 15.6” Laptops or smaller. There are two large compartments on the inside. The back compartment has more padding and thus is best for placing your laptop, although you could also put your laptop in the front section. The back section also has a Velcro strap, to help hold your laptop in place. There is sufficient space either way. You could even store two laptops or tablets, thanks to the double compartments.<br /><br />With storage space, there is an ample number of pockets to satisfy most needs. The front compartment even has a zipped mesh- style storage space and there is a zipped pocket on the outside, too. With so many pockets, you can store your pens, mouse, and other items with ease. And the black color gives the backpack a professional look so it is good for just about any purpose.<br /><br />For carrying, the Fit & Fresh Laptop Backpack presents three options. There are straps on the back so that you can wear this bag, like a backpack. But there is also a set of handles- one on the top and one on the side so that you can carry it around if you prefer. Having the two handles is cool because it means you can carry it vertically or horizontally, whichever is most suitable for you. I don’t necessarily like carrying on my back but I do like the metal handle for carrying it vertically. My laptop and contents are light enough that I can carry with ease.<br /><br />I like what I have experienced with this laptop backpack and it fulfills what I need from this type of item. About the only small issue some people may have is with the backpack’s flimsiness. This is not a heavy- duty bag and because of this, it may not be suitable for everyone. I have another laptop bag that is thicker and more durable that I use when I need more toughness. This laptop backpack is most useful when I need a simple way to pack up my laptop and accessories and head to work or to school. That is really what it was intended for.<br /><br />With so many electronic devices, we need ways to safely get them from place to place and the Fit & Fresh Laptop Backpack is good for this purpose. One word of caution before you buy is to measure your laptop and make sure it will fit into this bag, before you make the purchase. Some laptops are too large for this bag. My laptop is small and fits with no problem. If it fits, then I recommend this backpack for your daily electronics transporting needs. It fulfills its task and the price is right.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.9921875,
+            "prediction_probabilities": [
+                0.0004086494445800781,
+                0.0003132820129394531,
+                0.0004897117614746094,
+                0.006755828857421875,
+                0.9921875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\39c666e0dda47a416b158429e3c6cc5e5ed457964e86f85e5851919ba1b24378.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71f3qRXNwKL._SL800_.jpg"
+        },
+        {
+            "review_id": "2257644c48a50b06ee57ff6dedbbddb5c7168b51d2aace955d9c7081acd30cce",
+            "product_id": "B07JK2MBHT",
+            "parent_asin": "B07JK2MBHT",
+            "review_title": "Good for Your Bedroom Nightstand",
+            "review_text": "In the age of electronics, we all need more ways to plug ourselves in and manufacturers know this. They have responded by added usb ports and regular outlets to everyday appliances and this added convenience was enough to convince me to get the Seealle Bedside Desk Lamp with USB Fast Charging Port and Outlets Power Strip.<br /><br />This lamp requires a small amount of assembly out of the box. The assembly is simple, but it takes longer than it should due to the way they pack everything into the box. I know they do this to require as little space and as small of a box as possible, but the way the shade is inverted with the base stuck inside it takes effort to get loose. I was extra careful and avoided damage, but many people will not be so lucky.<br /><br />Once assembled, you just need to screw in a light bulb, screw the shade in place, and set the lamp on your desired table. My wife needed a night light for evening book reading, so I placed the lamp on her night stand. She likes having two places to plug in her phone, and the added light is nice for reading. There is a master switch on the cord and this provides another way to turn everything on and off, including the outlets. Another switch on the side of the base also controls the outlet. This is why, when you plug something in, you need to check to make sure it is charging. If it isn’t, then there is a good chance that one of the switches is in the off position. The light can be turned on/off using either the switch on the cord or by pulling the vertical, hanging metal cord underneath the light bulb.<br /><br />This small light looks good on a night stand, but it is slightly smaller than expected. It also seems rather delicate and due to the darkness of the shade, it may not produce the level of light you need. I find it fine as a bedroom nightlight because we don’t want it to be bright in this type of setting anyway, but other people might find that the shade makes everything too dark.<br /><br />It’s always good to have extra outlets and lamps with added outlets are commonplace nowadays as manufacturers answer customer needs. I like that this light has two added outlets, but the lamp is small and I still cannot get over the effort it took to dislodge the inverted shade from the base when I pulled the lamp out of the box for the first time. So, when all factors are taken into account, this lamp rates as average overall.",
+            "actual_rating": 3,
+            "actual_class": 2,
+            "actual_label": "Neutral",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.9931640625,
+            "prediction_probabilities": [
+                0.0002143383026123047,
+                0.00029754638671875,
+                0.00034308433532714844,
+                0.005764007568359375,
+                0.9931640625
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\2257644c48a50b06ee57ff6dedbbddb5c7168b51d2aace955d9c7081acd30cce.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61n5-wYl0pL._SL800_.jpg"
+        },
+        {
+            "review_id": "c4c580826071bcdd01f6b4fb1897df6e19df388eec7cd8a33dbd9623acb7dcf7",
+            "product_id": "B083Z6J66Y",
+            "parent_asin": "B083ZB26SZ",
+            "review_title": "Clear, Solid Glass",
+            "review_text": "The 90mm solid glass ball is as far as I can tell clear and without flaw. It's a little hard to keep clean and to keep fingerprints and dust off which are very noticeable when doing up close photography as in the examples I posted. I used a flashlight and a cigarette lighter in my samples. The stand this comes with is. . . okay. I worry that it being metal it might scratch the ball if you torn or move it while on the base. The legs are plastic and feel a bit fragile but will do for displaying the ball or using it in photography. I think the base is a standard tripod thread so it might mount on a standard tripod. I haven't tried this. There's a case that comes with the ball that's just big enough for the ball, if it were a little bigger you could put the included cleaning cloth in with the ball but you cannot.  This can be quite fun for photographers or anyone wanting a large crystal ball for gazing or just looking at.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.6201171875,
+            "prediction_probabilities": [
+                0.004718780517578125,
+                0.004634857177734375,
+                0.012176513671875,
+                0.358154296875,
+                0.6201171875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\c4c580826071bcdd01f6b4fb1897df6e19df388eec7cd8a33dbd9623acb7dcf7.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/51BYIGdoi6L._SL800_.jpg"
+        },
+        {
+            "review_id": "7daa6dad906401f34b3c5f051a94a4cb65f0de8c86c0891a6a58494c8868c9c0",
+            "product_id": "B0878QV9WT",
+            "parent_asin": "B0878VWPZM",
+            "review_title": "More For Looks Than Protection [Edited]",
+            "review_text": "When was the last time you broke a remote? I can't remember going back 30-40 years. Maybe one? So, you really don't need to protect a remote which is good because this is pretty thin and doesn't offer a lot of protection anyhow. It does add a bit of a cosmetic upgrade which isn't bad. However, no matter how you position and reposition it the buttons become a little mushy with the cover on. As you can see in the 2nd picture the buttons are below the level of the cover. It isn't pressing on any of the buttons but it does give them a soft feel when accessing them. Occasionally I've had to press the power twice to get everything to turn on.<br />What this cover does not address which id should is the roundness of the back of the remote. The rubber does add a bit of traction to the shape but just reaching over and pressing the power button is difficult, The remote rolls. If they had added a bit of squaring off material to make the case sit still so you could use it without having to pick it up, that would be a game changer. Keep the remote from rolling and wobbling on the table. How about that for an idea? I will probably keep the white one on for a while. I like the contrast and it matches the color of the work table I have my junk on. The black cover that came in this set. . . will remain unused. Remotes don't need to be protected, all the cover does is look nice'ish and make changing the battery a pain in the butt. Yeah, it was a pain to get on, it's going to be just as bad coming off. I hope the battery lasts a LONG time!<br /><br />Edit -  I got tired of this cover making pushing the buttons on the remote difficult. It was annoying. Every button had to be pressed hard, often twice. The cover offered no real protection and, as I suspected, was a pain to remove. I've done so and tossed it. Not worth the hassle.",
+            "actual_rating": 2,
+            "actual_class": 1,
+            "actual_label": "Dissatisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.67333984375,
+            "prediction_probabilities": [
+                0.032562255859375,
+                0.1324462890625,
+                0.14111328125,
+                0.67333984375,
+                0.0206756591796875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\7daa6dad906401f34b3c5f051a94a4cb65f0de8c86c0891a6a58494c8868c9c0.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/61eK3fUS3rL._SL800_.jpg"
+        },
+        {
+            "review_id": "1f55a5173c0315c23557ff2954f34c93ade3f2eeb1bcfb328d7bdb7ebec0ddf2",
+            "product_id": "B00HNKNOLW",
+            "parent_asin": "B00HNKNOLW",
+            "review_title": "Serious (and odd) design flaw makes it uncomfortable to hold in your hand - not a good case for reading",
+            "review_text": "I looked at a lot of cases before selecting this one, and I am sad to say I am very disappointed in this purchase. I have an Omoton case for my Kindle PaperWhite. I really like the design of the shell--the way Kindle fits into on it, so I was trying to find something similar, where the entire unit is enclosed all the way around. This was the only case I found which appeared to fit this way, so I ordered it. Build quality is fine, and the Kindle does fit snugly in the case, providing the fit I was looking for. Unfortunately, there is a serious (and odd) design flaw in this case: a small lip that protrudes outwards and runs all the way around the edge of the unit.<br /><br />This lip serves no purpose, and I do not understand why it was built into the design. I don't know why the lip did not register as a potential problem when I was making the decision to buy the unit--I suppose I thought it would be too small to matter. I was wrong. It matters. It is not an issue when you are not holding it: for example, using the tablet to watch movies and it is supported by the folded case on a flat surface (although this feels somewhat precarious/barely balanced). The issue is when you are holding the case in your hand and trying to read with your Kindle: the lip digs into your palm or fingers and after a few minutes becomes uncomfortable. You end up shifting the kindle to your other hand every couple of minutes. This is uncool, and makes what would otherwise be a great case almost unusable as a hand-held device. I thought about returning it, but given the hassle involved, I decided not to bother for a $12 unit.<br /><br />I cannot recommend this case. If you plan on reading with this case (i,.e. holding it in your hand for any length of time), it will be uncomfortable (sure is for me anyway).",
+            "actual_rating": 1,
+            "actual_class": 0,
+            "actual_label": "Very Dissatisfied",
+            "predicted_class": 1,
+            "predicted_label": "Dissatisfied",
+            "confidence": 0.406982421875,
+            "prediction_probabilities": [
+                0.03704833984375,
+                0.406982421875,
+                0.328125,
+                0.21142578125,
+                0.0164947509765625
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\1f55a5173c0315c23557ff2954f34c93ade3f2eeb1bcfb328d7bdb7ebec0ddf2.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/412Cc9ykskL._SL800_.jpg"
+        },
+        {
+            "review_id": "23167bbdce497b51a41f9889ae5da46fff2f45c870f1fd90ef1b6275bb97aa51",
+            "product_id": "B00FSJAWTC",
+            "parent_asin": "B00FSJAWTC",
+            "review_title": "Reads legacy and modern cards",
+            "review_text": "I received a review sample from the manufacturer along with two of their other readers. This one is very close on functionality to the [[ASIN:B00FSFZ8AY Sabrent SuperSpeed USB 3.0 12-in-1 6 slot]] model except this one does not have a slot for Sony's M2 cards. Since the product description on this page has all of the specs and ample photos I will not repeat them here.<br /><br />What I love about this card reader is that you are covered if you have a mix of modern cards like the micro SD that just about every phone, camera and other electronic devices now use, and the ancient CF and XD cards that one of my old cameras uses. Plus this will work with Sony's memory sticks, which many universal card readers will not.<br /><br />For this review my test beds were an old Dell laptop and an Acer Netone netbook, both of which are running Windows XP. Both machines immediately recognized the card reader, and when I inserted a card it was recognized and mounted as file systems. I tested this with an ancient CF card, an MMC card, a Sony memory stick and a micro SD card - all simultaneously. This hub allows you to transfer files between and among cards in the reader as well as to and from your computer and does so with no overheating that I could detect.<br /><br />One feature I like is the detachable USB cable that is included. This is a heavy duty cable, unlike the flimsy ones that some brands bundle with hubs. At a little over two feet long it gives you some flexibility regarding where you place the reader. It also will plug into USB ports that are adjacent to one that is already occupied. This is important to me on my Dell laptop because there is little spacing and it's a tight fit when I have two devices plugged into both ports.<br /><br />The construction is rock solid and  built to last. It's a versatile card reader that will meet your every need unless you also have Sony M2 cards, in which case I recommend that you consider the model I cited above.",
+            "actual_rating": 5,
+            "actual_class": 4,
+            "actual_label": "Very Satisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.5791015625,
+            "prediction_probabilities": [
+                0.004810333251953125,
+                0.00954437255859375,
+                0.0120849609375,
+                0.5791015625,
+                0.39453125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\23167bbdce497b51a41f9889ae5da46fff2f45c870f1fd90ef1b6275bb97aa51.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/514p-A9bGeL._SL800_.jpg"
+        },
+        {
+            "review_id": "9914ccf77c76cf7c1cd7c939094016c4a9bf114de6ee8c601894bc20736fd0be",
+            "product_id": "B098B1LDXK",
+            "parent_asin": "B098B1LDXK",
+            "review_title": "Beautiful watch, great size, simple to use, awkward app, find phone almost useless",
+            "review_text": "[[VIDEOID:d3ebc84f3d3fd77b0d4bf01d2a1d3ade]] I had very specific needs/wants with a smart watch and this watch takes care of those.  However, I knew what I was getting into and it was a choice - appearance, size, basic function vs feature rich and huge!!!<br /><br />This is a beautiful watch that suits for a delicate, feminine appearance without being bulky. While not light, it is very comfortable to wear, even while sleeping.  My previous regular watch was a simple Timex Indiglo.  Small, silver, lovely and functional.  But I wanted the notifications and step tracking so I wouldn't need a separate fitness device.  I then got an ASUS Zenwatch 2.  Loved it!  Feature rich, great interface, but larger than I wanted and looked like a calculator on my wrist.  I lost it and have been attempting to find something to replace it.  I purchased a modern fashion smart watch, but the dial was huge and didn't suite my taste.  Then I found this one.  Right size, right look, right features (steps, find phone, notifications, etc).  I've had it a week and here's where I am.<br /><br />Physical - beautiful silver appearance with a delicate look.  Band is flexible, very comfortable and easy to put on and take off.  I have a 7\" wrist and removed one link using the INCLUDED link removal tool.  This is a fantastic add on to this watch.<br /><br />Display and interface - bright and clear.  Images are simple, but pleasing.  Fonts are nice.  Scroll is reasonably responsive.  Lots of options for faces including your own custom.  My only gripe with the faces is that I wish you could choose the custom features to display.  I would have liked a battery status with my custom image.  Touch screen is responsive, though I find my fingers are large and I have some issues periodically controlling the small buttons for stopwatch and timer.  Stopwatch and timer can't run in the background, so you can't scroll through the watch while using them.  Would need to set an alarm from the phone instead.  The find phone feature is virtually worthless.  If you're any distance from the phone then the Bluetooth disconnects and you can't send the find signal.<br /><br />Notifications - I am happy with notifications overall in that I actually receive them and can read enough to get the gist.  However, you can only see the last message received.  Also, you can only scroll to a set number of characters.  The messages are prefixed by all of the people in a thread.  So if you have a group of 6 people in a message, all of their names will be displayed, and then you'll see who sent the message, and then it will start the message, but it will be truncated to a limited number of characters.<br /><br />Phone app - leaves A LOT to be desired.  The grammar in English is awkward.  Determine to select, state for steps, etc.  The tracking is wonky in that it's per day and you have to select each day from the calendar.  There are no charting or trends with the exception of a chart for the single day of sleep.  Tracking for blood ox, BPM, and blood pressure in the phone only keeps if it's started from the phone.  If you start it from the watch, it doesn't log it.<br /><br />Battery - Goes for at least 3 days so far with the tilt-to-view and auto heart monitoring off.  I like that the charger is a plate that the watch sits in.<br /><br />Even with all of this, I am happy with my watch.  I know the limitations, but until there is a comparable alternative, I'm good with this one.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.576171875,
+            "prediction_probabilities": [
+                0.0014009475708007812,
+                0.0016736984252929688,
+                0.0055084228515625,
+                0.4150390625,
+                0.576171875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\9914ccf77c76cf7c1cd7c939094016c4a9bf114de6ee8c601894bc20736fd0be.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/6154g3lWkRL._SL800_.jpg"
+        },
+        {
+            "review_id": "af6bc848aca76358b10aeefac57c7ceb6c8aae91967c511ccd5f0f4225422555",
+            "product_id": "B09B7DGQB4",
+            "parent_asin": "B09Y82MG8R",
+            "review_title": "Large size, great display, easy to use",
+            "review_text": "This is an absolutely beautiful watch.  The display is bright and clear, the icons and fonts are lovely, and it feels nice to wear.  The notifications worked as expected including full scroll through each message and changing between messages.  There are many options to personalize the face including uploading personal images.  Note that the glass display is very glossy and super prone to finger prints.  The phone app was functional.  I have decided to return it through.  First, I found that I would have preferred silver over black.  Next, the watch face is HUGE!  I'm 6'1\", 318lbs and it was a monster of a watch even on me.  I prefer something more delicate that looks more like a classic watch.  Lastly, even with all of the wonderful tracking and notifications features, it could not control music.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.99658203125,
+            "prediction_probabilities": [
+                0.0003323554992675781,
+                0.00023245811462402344,
+                0.0005941390991210938,
+                0.00225830078125,
+                0.99658203125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\af6bc848aca76358b10aeefac57c7ceb6c8aae91967c511ccd5f0f4225422555.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/616OjlNwDzL._SL800_.jpg"
+        },
+        {
+            "review_id": "1ba22739096ed203c2af4bda8c2def9506445d67c5f80cee58da5dc56ad4ed7c",
+            "product_id": "B07F2434LF",
+            "parent_asin": "B07F2434LF",
+            "review_title": "Features only with expensive monthly membership. Camera images are high quality, works with Alexa",
+            "review_text": "This is one of those products where I really like the gadget itself, but absolutely hate the company and policies behind it. Enough so that I would never actually do business with or trust the Canary company with my personal financial information.<br /><br />The camera itself is sleek and easy to use and set up. It connected via Bluetooth and wifi in minutes and upgraded its own software immediately. You have to have the app going first to get the camera online and running. There are blue, yellow, white and red lights on the bottom that sort of tell you what the status is - it's actually a pretty solid copy cat of the way the Alexa Echo devices do things.<br /><br />I've been impressed with the clarity and detail in the camera both live streaming and the short recordings. The night vision is remarkably good - that alone warrants a five star review if the policies didn't ruin everything else. Setting up the app and camera to determine Home, Away and Night modes is ok, but doesn't always work. Right now Canary is alerting me that a person has been detected - IT IS ME! I set it to home mode, but the camera just doesn't believe it. I was able to connect the Canary with Alexa in the Alexa App Skills and watch live streaming of our living room on the bedroom television via the Firestick - completely painless.<br /><br />Here's my problem. The so called three month free trial of the Canary membership requires a full credit card input BEFORE you can use the free trial. Umm.....no. I don't know this company, there's zero information in the app about exactly how they secure our info and if after the trial is over, you want to cancel, there aren't clear directions and a single step CANCEL button. It's about as sketchy as can be. All the features you might buy this camera for are locked unless you pony up that membership fee. Honestly, I'm just sick to death of being nickled and dined every month. This camera should include a SD card slot and it doesn't. Bottom line is that I have no idea if the microphone works or the downloading of recordings because the free trial isn't actually available unless I give them credit card access - never going to happen.",
+            "actual_rating": 3,
+            "actual_class": 2,
+            "actual_label": "Neutral",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.8740234375,
+            "prediction_probabilities": [
+                0.00843048095703125,
+                0.0269775390625,
+                0.0614013671875,
+                0.8740234375,
+                0.0290985107421875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\1ba22739096ed203c2af4bda8c2def9506445d67c5f80cee58da5dc56ad4ed7c.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/41I2oq2t+ML._SL800_.jpg"
+        },
+        {
+            "review_id": "94d2225516953f64bb49003e53eb63e65a2051d93268ce4da6a456471278ab49",
+            "product_id": "B019O1UTDS",
+            "parent_asin": "B01BH5TLK6",
+            "review_title": "Works great with my iPad Pro ...",
+            "review_text": "I recently got hit with one of the upper respiratory bugs going around and found myself having to spend considerable time in bed coughing/etc.  I still needed to be able to keep up with emails/etc. so my iPad was my tool of choice.  But holding it in the proper angle was difficult.  Checked around Amazon, saw this, read the reviews, and decided to take a chance.<br /><br />I'm VERY happy with it.  I have an iPad Pro in a slim case, and if fits perfectly with about 1&quot; to spare on each side (see photo).  I got the lime green to go with my bedroom decor.  The fabric is good quality, seams are nicely stitched, no obvious problems or issues.  I like that you can &quot;unfold&quot; it into various configurations to get different angles.  The only thing I'd change or add would be another &quot;fold&quot; to add another angle into the choices.<br /><br />Would gladly purchase again, and recommend to my friends.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.7470703125,
+            "prediction_probabilities": [
+                0.0033721923828125,
+                0.0048980712890625,
+                0.005588531494140625,
+                0.2392578125,
+                0.7470703125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\94d2225516953f64bb49003e53eb63e65a2051d93268ce4da6a456471278ab49.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/81wlm0b6q+L._SL800_.jpg"
+        },
+        {
+            "review_id": "776d681d4a6346e30aada4a260f534f64f89706233a611aa6b2e7e3859709366",
+            "product_id": "B08BNQX32Z",
+            "parent_asin": "B08BNQX32Z",
+            "review_title": "This works depending your situation!",
+            "review_text": "Uploading took a few minutes to configure. Cable is about one foot long. My current internet strength went from strong to weak. So the extender/repeater does slow the main router strength. The devices will need to connect to the router name plus EXT to get extended benefit. However this did not work for me in a 800ft range. 🤷🏽‍♀️",
+            "actual_rating": 1,
+            "actual_class": 0,
+            "actual_label": "Very Dissatisfied",
+            "predicted_class": 3,
+            "predicted_label": "Satisfied",
+            "confidence": 0.60302734375,
+            "prediction_probabilities": [
+                0.034027099609375,
+                0.16357421875,
+                0.1787109375,
+                0.60302734375,
+                0.0207061767578125
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\776d681d4a6346e30aada4a260f534f64f89706233a611aa6b2e7e3859709366.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/91pm4HZj8RL._SL800_.jpg"
+        },
+        {
+            "review_id": "2eabf6b49bc96820e70a6d72ead69a51f80cb7ab54abd74fd84dbc16bde2ac37",
+            "product_id": "B07VKNZ1G9",
+            "parent_asin": "B07VKNZ1G9",
+            "review_title": "Fits great and noticeably further range",
+            "review_text": "Upon initial inspection it looks to be built sturdy. It fit fine and comes with what looked like a seal for the base, when I took off my shorter antenna it didnt have a seal so I didnt use it on the new one. The antenna will bend in any direction you want and stay in that position. So far it has extended my range to approximately over a mile through thick woods and a housing community.",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.99462890625,
+            "prediction_probabilities": [
+                0.0007534027099609375,
+                0.00036215782165527344,
+                0.0007562637329101562,
+                0.0034160614013671875,
+                0.99462890625
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\2eabf6b49bc96820e70a6d72ead69a51f80cb7ab54abd74fd84dbc16bde2ac37.jpg",
+            "image_url": "https://images-na.ssl-images-amazon.com/images/I/71s-ADtJrrL._SL800_.jpg"
+        },
+        {
+            "review_id": "927cbb6471952a615d2f6e50966c4687eb2dd8e0201f3d8f829c43b00e497b92",
+            "product_id": "B0B9Y5VDVT",
+            "parent_asin": "B0BM6N12VN",
+            "review_title": "Nice picture quality but a little unstable.",
+            "review_text": "I like the so-called 4K picture but it's a little hard to keep the focus steady. I still recommend my friend you can put a long cable on this and still get your photo in. Thank you, Oran Z,",
+            "actual_rating": 4,
+            "actual_class": 3,
+            "actual_label": "Satisfied",
+            "predicted_class": 4,
+            "predicted_label": "Very Satisfied",
+            "confidence": 0.9326171875,
+            "prediction_probabilities": [
+                0.0003097057342529297,
+                0.0007414817810058594,
+                0.0011529922485351562,
+                0.0653076171875,
+                0.9326171875
+            ],
+            "image_path": "ml\\data\\images\\downloaded\\927cbb6471952a615d2f6e50966c4687eb2dd8e0201f3d8f829c43b00e497b92.jpg",
+            "image_url": "https://m.media-amazon.com/images/I/71-km3pwO+L._SL800_.jpg"
+        }
+    ]
+}
