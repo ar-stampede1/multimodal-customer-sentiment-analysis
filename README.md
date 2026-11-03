@@ -240,7 +240,9 @@ The application expects the following files inside `ml/saved_models/expanded/`:
 
 These files must be made available locally before running model inference.
 
+## Project Structure
 
+```text
 multi-modal_sentiment_analysis_system/
 │
 ├── backend/
@@ -277,6 +279,7 @@ multi-modal_sentiment_analysis_system/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Installation and Setup
 
